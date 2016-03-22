@@ -11,9 +11,9 @@ $ sudo usermod -aG docker your-username
 Now, let’s put it to run:
 
 $ ./run.sh
+
 This command will pull and run 3 containers: hub, firefox and chrome. You can scale things up with:
 
 $ ./scale.sh 10
-This will scale the grid to 10 Chrome containers and 10 Firefox containers (be advised that it will eat a lot memory - it’s 20 browsers, after all).
 
-[Running a Selenium Grid with docker-compose](http://carlosbecker.com/posts/selenium-grid-docker-compose)
+This will scale the grid to 10 Chrome containers and 10 Firefox containers (be advised that it will eat a lot memory - it’s 10 browsers, after all).
