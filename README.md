@@ -16,4 +16,4 @@ This command will pull and run 3 containers: hub, firefox and chrome. You can sc
 
 $ ./scale.sh 10
 
-This will scale the grid to 10 Chrome containers and 10 Firefox containers (be advised that it will eat a lot memory - it’s 10 browsers, after all).
+This will scale the grid to 10 Chrome containers and 10 Firefox containers (be advised that it will eat a lot memory - it’s 20 browsers, after all).
