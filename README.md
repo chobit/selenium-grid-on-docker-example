@@ -3,6 +3,7 @@
 To test that, you can start a fresh linux machine (or not, your call) and hit:
 
 $ git clone https://github.com/chobit/selenium-grid-on-docker-example.git grid && cd grid && sudo ./install.sh
+
 This will download the scripts and install docker and docker compose.
 When you install Docker, it will suggest you to add your user to the docker group. You should really do that. I help you, it’s something like this:
 
